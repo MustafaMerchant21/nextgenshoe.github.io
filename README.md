@@ -1,6 +1,6 @@
 
 <p align = 'center' >
-  <img src="https://github.com/MustafaMerchant21/nextgenshoe.github.io/blob/main/img/Shoe%20logo%20white%20NEW.png" width=10% >
+  <img src="https://github.com/MustafaMerchant21/nextgenshoe.github.io/blob/main/img/Shoe%20logo%20white%20NEW.png" width=10% height = '10%'>
 </p>
 <h1 align = 'center'>Next Gen Shoe </h1>
 <h3 align = 'center'>
