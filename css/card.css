@@ -1,0 +1,547 @@
+.card_main{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: unset;
+    padding: 0rem 3rem;
+    /* border: 1px solid #fff; */
+}
+
+.card_main .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14.6rem;
+    height: 20.81rem;
+    background: linear-gradient(180deg, #EF744E 0%, #C25938 100%);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card_main .card h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5rem;
+    /* line-height: 147px; */
+    text-align: center;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.43);
+    opacity: 0.38;
+    transition: .4s ease-in-out;
+}
+
+.card_main .card .cardDesign{
+    position: absolute;
+    height: 30.7625rem;
+    width: 20.26875rem;
+    border-radius: 0px;
+    left: 20%;
+    top: -50%;
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    transition: .3s ease-in-out;
+    
+}
+
+.popular .card_main .card .cardDesign{
+    transform: matrix(-0.64, 0.66, -0.91,   -0.62, 0, 0);
+
+}
+
+.card_main .card .logo{
+    position: absolute;
+    width: 2.4rem;
+    top: .7rem;
+    left: 1.2rem;
+    z-index: 1;
+    transition: .3s ease-in-out;
+    transition-delay: .05s;
+}
+
+.card_main .card h3{
+    position: absolute;
+    left: 13.37%;
+    right: 13.37%;
+    top: 9.42%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem ;
+    /* 1.2rem */
+    /* line-height: 130%; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    transform: translateY(1rem);
+    z-index: 1;
+    transition: .3s ease-in-out;
+}
+
+.card_main .card .shoe{
+    width: 15.5rem;
+    position: absolute;
+    margin: 0;
+    top: 57%;
+    left: 50%;
+    -ms-transform: translate(-55%, -50%);
+    transform: translate(-55%, -50%) rotate(-14.08deg);
+    z-index: 2;
+    transition: .3s ease-in-out;
+    /* visibility: hidden; */
+}
+
+.card_main .card .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(5rem) scale(0.00001);
+    transition: .3s ease-in-out;
+    transition-delay: .02s ;
+}
+
+.card_main .card .details .price{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: #221800;
+    transition: .3s ease-in-out;
+    transition-delay: .025s ;
+}
+
+.card_main .card .details .colors{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    transition: .3s ease-in-out;
+    margin-top: .5rem;
+}
+
+.card_main .card .details .colors div{
+    height: 16.907316207885742px;
+    width: 16.880359649658203px;
+    border-radius: 50rem;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.18);
+    margin-right: .8rem;
+    cursor: pointer;
+    transition: .3s ease-in-out;    
+}
+
+.card_main .card .details .colors div:nth-of-type(1){
+    background: #393647;
+}
+.card_main .card .details .colors div:nth-of-type(2){
+    background: #FFFFFF;
+}
+.card_main .card .details .colors div:nth-of-type(3){
+    background: #1E1E1E;
+}
+.card_main .card .details .colors div:nth-of-type(4){
+    background: #C90E29;
+    margin-right: 0;    
+}
+
+.card_main .card .details .button{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: .7rem;
+    transition: .3s ease-in-out;
+    transition-delay: .035s ;
+}
+
+.card_main .card .details .button button{
+    height: 2.6rem;
+    width: 6.1rem;
+    background: #ECECEC;
+    box-shadow: 2px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    border: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight:600;
+    font-size: .7rem;
+    /* line-height: 16px; */
+    text-align: center;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: #c9680e;
+}
+
+.card_main .card .details .button button:nth-of-type(1){
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: 800;
+    transition: .15s ease-in-out;
+}
+
+.card_main .card .details .button button:nth-of-type(1)::after{
+    content: '';
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border: 1.5px solid #fff;
+    border-radius: 13px;
+    transition: .2s ease-in-out;
+}
+
+.card_main .card .details .button button:nth-of-type(2){
+    background: none;
+    border: 1.8px solid #fff;
+    background: none;
+    color: #fff;
+    padding: 0 .5rem;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ;
+    z-index: 1;
+}
+
+
+.card_main .card .details .button button:nth-of-type(2):focus ,
+.card_main .card .details .button button:nth-of-type(2):active,
+.card_main .card .details .button button:nth-of-type(1):active,
+.card_main .card .details .button button:nth-of-type(1):focus
+{
+    border: none;
+    outline: none;
+}
+
+.card_main .card .details .button button:nth-of-type(1):hover{
+    transform: translate(-.2rem, -.2rem);
+    cursor: pointer;
+}
+
+.card_main .card .details .button button:nth-of-type(1):hover::after{
+    transform: translate(.3rem, .3rem);
+}
+
+.card_main .card .details .button button:nth-of-type(1):active{
+    transform: initial;
+}
+
+.card_main .card .details .button button:nth-of-type(1):active::after{
+    transform: initial;
+}
+
+.card_main .card .details .button button:nth-of-type(2):focus{
+    outline: none;
+    border: 1px solid #fff;
+}
+.card_main .card .details .button button:nth-of-type(2):hover{
+    box-shadow: inset 1px 1px 10px rgba(255, 255, 255, 0.562);
+}
+
+.card_main .card:hover{
+    transform: scale(1.12);
+}
+
+.card_main .card:hover .cardDesign{
+    left: 99%;
+    top: -67%;
+}
+
+.card_main .card:hover h3{
+    /* visibility: hidden; */
+    /* display: none; */
+    transform: translateY(1rem) scale(0.8);
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.popular .card_main .card:hover .logo{
+    transform: translateX(10rem) translateY(-.2rem);
+    width: 2.8rem;
+}
+
+.card_main .card:hover .shoe{
+    width: 11rem;
+    top: 46%;
+    filter: drop-shadow(2px 2px 20px rgba(0, 0, 0, 0.418));
+    transform: translate(-50%, -50%) rotate(5.08deg) ;
+}
+
+.card_main .card:hover .details{ 
+    visibility: visible;
+    transform: translateY(6.2rem);
+} 
+
+.card_main .card .details .colors div:hover{
+    transform: scale(1.5);
+}
+
+
+/* **************For Popular Cards***************** */
+
+/* -----CARD 1------ */
+
+.popular .card_main .card:nth-of-type(1){
+    background: linear-gradient(180deg, #FF6262 0%, #CE2B38 100%);
+}
+.popular .card_main .card:nth-of-type(1) .logo{
+    fill: #BF3540;
+}
+.popular .card_main .card:nth-of-type(1) .details .price{
+    color: #fff;
+    font-weight: 500;
+}
+.popular .card_main .card:nth-of-type(1) .details .button button:nth-of-type(1){
+    color: #CE2B38;
+}
+.popular .card_main .card:nth-of-type(1) .details .colors div:nth-of-type(1){
+    background: #fff;
+}
+.popular .card_main .card:nth-of-type(1) .details .colors div:nth-of-type(2){
+    background: #000;
+}
+.popular .card_main .card:nth-of-type(1) .details .colors div:nth-of-type(3){
+    background: #303988;
+}
+.popular .card_main .card:nth-of-type(1) .details .colors div:nth-of-type(4){
+    background: #B4B4B4;
+}
+
+/* ------CARD 2 ------  */
+
+.popular .card_main .card:nth-of-type(2){
+    background: linear-gradient(180deg, #4692D5 0%, #2D3CBF 100%);
+}
+.popular .card_main .card:nth-of-type(2) .logo{
+    fill: #006AC7;
+}
+.popular .card_main .card:nth-of-type(2) h1{
+    font-size: 2.8rem;
+}
+.popular .card_main .card:nth-of-type(2) .details .price{
+    color: #fff;
+    font-weight: 500;
+}
+.popular .card_main .card:nth-of-type(2) .details .button button:nth-of-type(1){
+    color: #1E2394;
+}
+.popular .card_main .card:nth-of-type(2) .details .colors div:nth-of-type(1){
+    background: #534D39;
+}
+.popular .card_main .card:nth-of-type(2) .details .colors div:nth-of-type(2){
+    background: #000000;
+}
+.popular .card_main .card:nth-of-type(2) .details .colors div:nth-of-type(3){
+    background: #737677;
+}
+.popular .card_main .card:nth-of-type(2) .details .colors div:nth-of-type(4){
+    background: #0063B9;
+}
+
+/* ------CARD 3 ------  */
+
+.popular .card_main .card:nth-of-type(3){
+    background: linear-gradient(180deg, #82F23B 0%, #3BF26E 100%);
+}
+.popular .card_main .card:nth-of-type(3) .logo{
+    fill: #44AE00;
+}
+.popular .card_main .card:nth-of-type(3) h1{
+    font-size: 3rem;
+}
+.popular .card_main .card:nth-of-type(3):hover h3{
+    color: #006B0D;
+}
+.popular .card_main .card:nth-of-type(3) .details .price{
+    color: #013b09;
+    font-weight: 600;
+}
+.popular .card_main .card:nth-of-type(3) .details .button button:nth-of-type(1){
+    color: #013b09;
+}
+.popular .card_main .card:nth-of-type(3) .details .button button:nth-of-type(2){
+    border: 1.8px solid #000;
+    color: #000;
+}
+.popular .card_main .card:nth-of-type(3) .details .colors div:nth-of-type(1){
+    background: #FF5F47;
+}
+.popular .card_main .card:nth-of-type(3) .details .colors div:nth-of-type(2){
+    background: #FFFFFF;
+}
+.popular .card_main .card:nth-of-type(3) .details .colors div:nth-of-type(3){
+    background: #000000;
+}
+.popular .card_main .card:nth-of-type(3) .details .colors div:nth-of-type(4){
+    background: #564F91;
+}
+
+/* ------CARD 4 ------  */
+
+.popular .card_main .card:nth-of-type(4) .logo{
+    fill: #EF744E;
+}
+.popular .card_main .card:nth-of-type(4) h1{
+    font-size: 3.8rem;
+}
+
+/* ------CARD 5 ------  */
+
+.popular .card_main .card:nth-of-type(5){
+    background: linear-gradient(180deg, #F39008 0%, #BC5F37 100%);
+}
+.popular .card_main .card:nth-of-type(5) .logo{
+    fill: #F39008;
+}
+/* .popular .card_main .card:nth-of-type(5) h1{
+    font-size: 3rem;
+} */
+/* .popular .card_main .card:nth-of-type(5):hover h3{
+    color: #006B0D;
+} */
+.popular .card_main .card:nth-of-type(5) .details .price{
+    color: #181818;
+    font-weight: 600;
+}
+.popular .card_main .card:nth-of-type(5) .details .button button:nth-of-type(1){
+    color: #9D5B00;
+}
+/* .popular .card_main .card:nth-of-type(5) .details .button button:nth-of-type(2){
+    border: 1.8px solid #000;
+    color: #000;
+} */
+.popular .card_main .card:nth-of-type(5) .details .colors div:nth-of-type(1){
+    background: #262521;
+}
+.popular .card_main .card:nth-of-type(5) .details .colors div:nth-of-type(2){
+    background: #FFFFFF;
+}
+.popular .card_main .card:nth-of-type(5) .details .colors div:nth-of-type(3){
+    background: #B42E41;
+}
+.popular .card_main .card:nth-of-type(5) .details .colors div:nth-of-type(4){
+    background: #FCBA4F;
+}
+
+/* ------CARD 6 ------  */
+
+.popular .card_main .card:nth-of-type(6){
+    background: linear-gradient(180deg, #A9A9A9 26.86%, #5C5C5C 100%);
+}
+/* .popular .card_main .card:nth-of-type(6) .logo{
+    fill: #F39008;
+} */
+/* .popular .card_main .card:nth-of-type(6) h1{
+    font-size: 3rem;
+} */
+/* .popular .card_main .card:nth-of-type(6):hover h3{
+    color: #006B0D;
+} */
+.popular .card_main .card:nth-of-type(6) .details .price{
+    color: #161616;
+    font-weight: 600;
+}
+.popular .card_main .card:nth-of-type(6) .details .button button:nth-of-type(1){
+    color: #141414;
+}
+/* .popular .card_main .card:nth-of-type(6) .details .button button:nth-of-type(2){
+    border: 1.8px solid #000;
+    color: #000;
+} */
+.popular .card_main .card:nth-of-type(6) .details .colors div:nth-of-type(1){
+    background: #945204;
+}
+.popular .card_main .card:nth-of-type(6) .details .colors div:nth-of-type(2){
+    background: #FFFFFF;
+}
+.popular .card_main .card:nth-of-type(6) .details .colors div:nth-of-type(3){
+    background: #B42E41;
+}
+.popular .card_main .card:nth-of-type(6) .details .colors div:nth-of-type(4){
+    background: #724FFC;
+}
+
+/* ------CARD 7 ------  */
+
+.popular .card_main .card:nth-of-type(7){
+    background: linear-gradient(180deg, #6176C4 36.77%, #3650B1 100%);
+}
+.popular .card_main .card:nth-of-type(7) .logo{
+    fill: #30407C;
+}
+.popular .card_main .card:nth-of-type(7) h1{
+    font-size: 2.8rem;
+}
+.popular .card_main .card:nth-of-type(7):hover h3{
+    transform: translateY(-.05rem) scale(0.8);
+}
+.popular .card_main .card:nth-of-type(7) .details .price{
+    color: #000F45;
+    font-weight: 600;
+}
+.popular .card_main .card:nth-of-type(7) .details .button button:nth-of-type(1){
+    color: #132771;
+}
+.popular .card_main .card:nth-of-type(7) .details .colors div:nth-of-type(1){
+    background: #041B94;
+}
+.popular .card_main .card:nth-of-type(7) .details .colors div:nth-of-type(2){
+    background: #fff;
+}
+.popular .card_main .card:nth-of-type(7) .details .colors div:nth-of-type(3){
+    background: #222B34;
+}
+.popular .card_main .card:nth-of-type(7) .details .colors div:nth-of-type(4){
+    background: #14234E;
+}
+
+/* ------CARD 8 ------  */
+
+.popular .card_main .card:nth-of-type(8){
+    background: linear-gradient(180deg, #FF7585 13.43%, #D13F6B 104.41%);
+}
+.popular .card_main .card:nth-of-type(8) .logo{
+    fill: #982A38;
+}
+.popular .card_main .card:nth-of-type(8) h1{
+    font-size: 3rem;
+}
+/* .popular .card_main .card:nth-of-type(8):hover h3{
+    color: #006B0D;
+} */
+.popular .card_main .card:nth-of-type(8) .details .price{
+    color: #180006;
+    font-weight: 600;
+}
+.popular .card_main .card:nth-of-type(8) .details .button button:nth-of-type(1){
+    color: #750622;
+}
+.popular .card_main .card:nth-of-type(8) .details .colors div:nth-of-type(1){
+    background: #750622;
+}
+.popular .card_main .card:nth-of-type(8) .details .colors div:nth-of-type(2){
+    background: #72A5E0;
+}
+.popular .card_main .card:nth-of-type(8) .details .colors div:nth-of-type(3){
+    background: #93948B;
+}
+.popular .card_main .card:nth-of-type(8) .details .colors div:nth-of-type(4){
+    background: #462E5B;
+}
