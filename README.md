@@ -21,9 +21,38 @@
 <div align = 'center' style="background-color:blue;"> </div>
 
 
-
+ <ol>
+    <li><b> Languages:</b>
+     <ul>
+       <li>HTML</li>
+       <li>CSS</li>
+       <li>JAVASCRIPT</li>
+      </ul>
+    </li>
+    <li><b> Media Sources:</b>
+      <ol type='a'>
+        <li>Images:</li>
+          <ul>
+            <li>Unsplash</li>
+            <li>Pexels</li>
+            <li>Pixabay</li>
+          </ul>
+        </li>
+      </ol>
+    </li>
+    <li><b> Website design:</b>
+      <ul>
+        <li>Figma</li>
+        <li>Photoshop</li>
+      </ul>
+    </li>
+ </ol>
+     
+<hr>
 <br><br>
 <p align = 'center' >
   <i>Readme best viewed in dark theme!</i>
 </p>
+
+<p align = 'center' > © 2022 <a href="https://github.com/MustafaMerchant21">Mustafa Merchant</a>. All Rights Reserved.</p>
 
