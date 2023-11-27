@@ -1,6 +1,6 @@
 function soonAvailable()
 {
-  alert("Feature soom available!");
+  alert("Feature soon available!");
 }
 AOS.init({
   duration: 1000, 
