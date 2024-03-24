@@ -2,12 +2,11 @@
 <p align = 'center' >
   <img src="https://github.com/MustafaMerchant21/nextgenshoe.github.io/blob/main/img/Shoe%20logo%20white%20NEW.png" alt = 'Logo' width=10% height = '10%'>
 </p>
-<h1 align = 'center'>Next Gen Shoe</h1>
+<h1 align = 'center'>Next Gen Shoes</h1>
 <h3 align = 'center'>
  <i> Never Stop! Go Faster! </i>
 </h3>
 
-<hr>
 
 <p align = 'center'> A concept brand of shoe store, holding strong dealership of shoe brands. Serving <b> quality, cleanliness and value for money</b> .</p>
 <br>
@@ -42,6 +41,8 @@
 <p align = 'center' >
   <i>View this at its best in dark theme</i>
 </p>
-
+<p align = 'center' >
+  <a href="https://mustafamerchant21.github.io/nextgenshoe.github.io/" class="button" align = 'center'>Visit the website here</a>
+</p>
 <p align = 'center' > © 2022 <a href="https://github.com/MustafaMerchant21">Mustafa Merchant</a>. All Rights Reserved.</p>
 
